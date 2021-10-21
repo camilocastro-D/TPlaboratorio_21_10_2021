@@ -1,0 +1,35 @@
+body{
+    background-color: #dfd0e1;
+   
+}
+
+
+button{
+    color: rgb(7, 3, 3);
+    padding: 12;
+    margin-top: 20;
+    border-bottom: brown;
+}
+tr{
+    color: rgb(9, 4, 4);
+}
+legend{
+    border-bottom: chocolate;
+}
+fieldset legend{
+    color: rgb(8, 7, 9);
+}
+label{
+    color: rgb(125, 44, 165);
+}
+button {
+    color: rgb(220, 110, 179);
+    border-bottom: deeppink;
+
+}
+table thead tr th{
+    color: rgb(220, 110, 179);
+}
+div font {
+    border-bottom: deeppink;
+}

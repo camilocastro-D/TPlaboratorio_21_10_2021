@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Castro Camilo" >
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+    <div class="section">
+        <button class="btn" id="boton" > mostrar datos cargados </button>
+        <table>
+            <thead>
+                <tr>
+                    <th>nombre</th>
+                    <th>apellido</th>
+                    <th>dni</th>
+                    <th>fecha</th>
+                </tr>
+            </thead>
+            <tbody id="respuestas">
+
+            </tbody>
+           
+
+    
+        </table>
+    </div>
+
+    </div>
+    
+    
+
+    <form>
+        <b>
+        <fieldset>
+            <legend> Cargar  datos</legend>
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre"   >
+            </div>
+            <div>
+                <label for="apellido"> Apellido: </label>
+                <input type="text" id="apellido" placeholder="Ingrese su apellido">
+            </div>
+            <div>
+                <label for="dni"> dni: </label>
+                <input type="text" id="dni" placeholder="ingrese su DNI">
+            </div>
+            <div>
+                <label for="fecha">Fecha de Nacimineto</label><br>
+                <input type="text" id="fecha" placeholder="dd/mm/aaaa" >
+            </div>
+
+
+
+            <div>
+                
+                <input id="btnEnviar" type="submit" value="Cargar datos">
+            </div>
+
+        </fieldset>
+    </b>
+    </form>
+
+    <div class="key" id="respuesta">
+
+    </div>
+
+    <script src="archivo.js"></script>
+    <script src="datos.json"></script>
+</body>
+
+
+</html>
